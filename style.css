@@ -1,31 +1,43 @@
 body {
-background-color: #7ABD5A;
+background-image: url("skin.jpg");
   text-align: center;
   font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-  color: green;
-  background-color: #FF5656;
+  color: #FFDAE5;
+  background-image: url("seeds.jpg");
   text-align: center;
 }
-
+h2 {
+  color: #FFDAE5;
+  background-image: url("seeds.jpg");
+  text-align: center;
+}
 p {
   font-family: verdana;
+  background-image: url("seeds.jpg");
   font-size: 20px;
   text-align: center;
+  color: #9BFF99
 }
 
 main {
-  background-color: #FF5656;
-  color: #164600;
+  background-image: url("seeds.jpg");
+  color: red;
   text-align: center;
 }
 
 
 tbody {
-  color: #164600;
-  background-color: #62C235;
+  background-color: #2F0000;
   text-align: center;
   table-layout: fixed;
+}
+title{
+  color: #FFDAE5;
+
+}
+footer{
+  color: #FFDAE5;
 }
