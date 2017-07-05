@@ -8,18 +8,18 @@ background-image: url("skin.jpg");
 }
 
 h1 {
-  color: #FFDAE5;
+  color: white;
   background-image: url("seeds.jpg");
   text-align: center;
   margin-left: 380px;
   margin-right: 380px;
 }
 h2 {
-  color: #FFDAE5;
+  color: white;
   background-image: url("seeds.jpg");
   text-align: center;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 p {
   font-family: verdana;
@@ -42,11 +42,11 @@ tbody {
   margin: 0 auto;
 }
 title{
-  color: #FFDAE5;
+  color: white;
 
 }
 footer{
-  color: #FFDAE5;
+  color: lime;
 }
 thead tc:nth-child(even){
   color: green;
@@ -55,8 +55,37 @@ a:link{
   color: green;
 }
 a:visited{
-  color: #FFDAE5;
+  color: white;
 }
 a:hover{
   color: green;
+}
+.navbar-default{
+  background-image: url("seeds.jpg");
+  border-color: red;
+  text-emphasis-color: white;
+}
+li.active > a {
+  color: green;
+  background-color: green;
+
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: lime;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: lime;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand {
+  color: lime;
+}
+
+element {
+  color: lime;
 }
