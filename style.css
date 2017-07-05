@@ -1,11 +1,12 @@
 body {
-  background-color: #e95464;
+background-color: #7ABD5A;
   text-align: center;
   font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-  color: white;
+  color: green;
+  background-color: #FF5656;
   text-align: center;
 }
 
@@ -16,13 +17,15 @@ p {
 }
 
 main {
-  color: white;
+  background-color: #FF5656;
+  color: #164600;
   text-align: center;
 }
 
 
 tbody {
-  color: green;
+  color: #164600;
+  background-color: #62C235;
   text-align: center;
   table-layout: fixed;
 }
