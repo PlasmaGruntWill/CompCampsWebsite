@@ -1,5 +1,6 @@
 body {
-background-image: url("skin.jpg");
+background-image: url("gradient.jpg");
+background-size: cover;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   margin-left: 450px;
@@ -61,7 +62,7 @@ a:hover{
   color: green;
 }
 .navbar-default{
-  background-image: url("seeds.jpg");
+  background-image: url("skin.jpg");
   border-color: red;
   text-emphasis-color: white;
 }
@@ -70,22 +71,26 @@ li.active > a {
   background-color: green;
 
 }
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a:hover {
-  color: lime;
-}
 
+li.active > a {
+  color: green;
+  background-color: green;
+
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+color: lime;
+}
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-  color: lime;
+  color: red;
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand {
   color: lime;
 }
 
-element {
-  color: lime;
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+  background-image: url("seeds.jpg");
 }
