@@ -8,6 +8,13 @@ background-size: cover;
   border-color: black;
 }
 
+main {
+  background-color: #FF5C4F;
+  color: white;
+  text-align: center;
+
+}
+
 h1 {
   color: white;
   background-color: #FF5C4F;
@@ -22,6 +29,9 @@ h2 {
   margin-left: 300px;
   margin-right: 300px;
 }
+img{
+  border-radius: 50% 0;
+}
 p {
   font-family: verdana;
   background-color: #FF5C4F;
@@ -30,12 +40,7 @@ p {
   color: white;
 }
 
-main {
-  background-color: #FF5C4F;
-  color: white;
-  text-align: center;
 
-}
 img {
     max-width: 100%;
     max-height: 100%;
