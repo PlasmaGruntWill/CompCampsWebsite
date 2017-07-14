@@ -1,6 +1,5 @@
 body {
-background-image: url("images/gradient2.jpg");
-background-size: cover;
+background-image: url("images/space.png");
   text-align: center;
   font-family: 'Raleway', sans-serif;
   margin-left: 450px;
@@ -9,7 +8,7 @@ background-size: cover;
 }
 
 main {
-  background-color: #819FF7;
+  background-color: #8181F7;
   color: white;
   text-align: center;
 
@@ -17,14 +16,14 @@ main {
 
 h1 {
   color: white;
-  background-color: #819FF7;
+  background-color: #8181F7;
   text-align: center;
   margin-left: 380px;
   margin-right: 380px;
 }
 h2 {
   color: white;
-  background-color: #819FF7;
+  background-color: #8181F7;
   text-align: center;
   margin-left: 300px;
   margin-right: 300px;
@@ -40,7 +39,7 @@ h2 {
 }
 p {
   font-family: verdana;
-  background-color: #819FF7;
+  background-color: #8181F7;
   font-size: 20px;
   text-align: center;
   color: white;
