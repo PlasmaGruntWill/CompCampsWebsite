@@ -6,7 +6,10 @@ background-image: url("images/space.png");
   margin-right:450px;
   border-color: white;
 }
-
+.important{
+  font-size: 100px;
+  text-align: center;
+}
 main {
   background-color: #8181F7;
   color: white;
