@@ -16,6 +16,7 @@ main {
 
 h1 {
   color: white;
+  text-shadow: 1px 1px purple;
   background-color: #8181F7;
   text-align: center;
   margin-left: 380px;
@@ -23,6 +24,7 @@ h1 {
 }
 h2 {
   color: white;
+  text-shadow: 1px 1px purple;
   background-color: #8181F7;
   text-align: center;
   margin-left: 300px;
@@ -39,6 +41,7 @@ h2 {
 }
 p {
   font-family: verdana;
+  text-shadow: 1px 1px purple;
   background-color: #8181F7;
   font-size: 20px;
   text-align: center;
@@ -93,21 +96,21 @@ li.active > a {
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
 color: white;
-text-shadow: 1px 1px white;
-text-outline: 2px 2px white;
+text-shadow: 1px 1px purple;
+text-outline: 2px 2px blue;
 }
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
   color: white;
-  text-shadow: 1px 1px white;
-  text-outline: 2px 2px white;
+  text-shadow: 1px 1px purple;
+  text-outline: 2px 2px blue;
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand {
   color: white;
-  text-shadow: 1px 1px white;
-  text-outline: 2px 2px white;
+  text-shadow: 1px 1px purple;
+  text-outline: 2px 2px blue;
 }
 
 
