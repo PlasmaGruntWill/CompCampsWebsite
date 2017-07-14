@@ -1,5 +1,5 @@
 body {
-background-image: url("gradient.jpg");
+background-image: url("images/gradient.jpg");
 background-size: cover;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -29,8 +29,14 @@ h2 {
   margin-left: 300px;
   margin-right: 300px;
 }
-img{
-  border-radius: 50% 0;
+.flipped {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph; /*IE*/
+    filter: fliph; /*IE*/
+
 }
 p {
   font-family: verdana;
@@ -71,7 +77,7 @@ a:hover{
   color: green;
 }
 .navbar-default{
-  background-image: url("skin.jpg");
+  background-image: url("images/skin.jpg");
   border-color: black;
   text-emphasis-color: white;
 }
@@ -107,5 +113,5 @@ text-outline: 2px 2px black;
 
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
-  background-image: url("seeds.jpg");
+  background-image: url("images/seeds.jpg");
 }
